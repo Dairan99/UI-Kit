@@ -1,0 +1,30 @@
+.btn-tooltip {
+  font-family: "Play", "Arial", sans-serif;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid $color-white;
+  border-radius: 14px;
+  color: $color-white;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 20px;
+  padding: 3px 16px;
+  user-select: none;
+  outline: none;
+  width: 151px;
+
+  &:hover {
+    transition: $transition-300;
+    border-color: $color-pastel-green;
+    color: $color-pastel-green;
+  }
+  
+
+  &__icon {
+    height: 16px;
+    width: 16px;
+  }
+}
